@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Components App
+
+The main reason for this project is to practice the creation of components for a basic React project. This is part of the knowledge acquired during the Introduction to React course. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Deployed Project
 
 To see the project deployed you can go to: https://jahdevelopment.github.io/react-gh-pages/
 
