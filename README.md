@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+To see the project deployed you can go to: https://jahdevelopment.github.io/react-gh-pages/
+
+## Available Scripts
+
 In the project directory, you can run:
 
 ### `npm start`

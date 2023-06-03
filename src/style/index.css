@@ -84,6 +84,7 @@ button[type=primary] {
   border-radius: 5px;
   width: 150px;
 }
+
 button[type=secondary] {
   background-color: #fff;
   text-align: center;
@@ -118,7 +119,6 @@ img {
   background-color: #9DB2BF;
   align-items: center;
 }
-
 
 .footer .bar-footer {
   align-items: center;

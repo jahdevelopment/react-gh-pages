@@ -1,4 +1,3 @@
-
 import Gallery from './Gallery';
 //import vehicles from './data/vehicles';
 import Button from "./Button";
