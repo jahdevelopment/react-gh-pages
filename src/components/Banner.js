@@ -1,11 +1,11 @@
-//import {component} from 'react';
+
 import Gallery from './Gallery';
-//import vehicles from '../data/vehicles';
+//import vehicles from './data/vehicles';
 import Button from "./Button";
 
 function Banner(props) {
   return (
-    <section>
+    <>
       <h1>{props.title}</h1>
       <div className="container">
         <p>{props.text}</p>
@@ -15,9 +15,16 @@ function Banner(props) {
         <Button type="secondary" />
       </div>
         <div className="grid">
-          <Gallery vehicles={props.vehicles} />  
+        {props.vehicles.map((vehicle) => (
+          <Gallery 
+            key={vehicle.id}
+            src={vehicle.image}
+            alt={vehicle.description}
+        />
+        ))}
+          
         </div>
-    </section>
+    </>
   );
 }
 

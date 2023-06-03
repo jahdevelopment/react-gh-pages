@@ -81,7 +81,6 @@ button[type=primary] {
   margin: 20px;
   text-align: center;
   text-decoration: none;
-    
   border-radius: 5px;
   width: 150px;
 }
@@ -95,7 +94,6 @@ button[type=secondary] {
   margin: 20px;
   text-align: center;
   text-decoration: none;
-    
   border-radius: 5px;
   width: 150px;
 }
@@ -119,7 +117,6 @@ img {
   height: 150px;
   background-color: #9DB2BF;
   align-items: center;
-
 }
 
 

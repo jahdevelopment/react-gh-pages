@@ -1,9 +1,7 @@
-function Gallery(props) {
+function Gallery({id, image, description}) {
   return (
-    <div className="column">
-      {props.vehicles.map((vehicle) => (
-        <img key={vehicle.id} src={vehicle.image} alt={vehicle.description} />
-      ))}
+    <div className="column" key={id}>
+      <img  src={image} alt={description} />
     </div>
   );
 }
